@@ -12,7 +12,7 @@ from peft import LoraConfig, PeftModel, prepare_model_for_kbit_training
 from trl import SFTTrainer
 
 hf_token = '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'
-new_model = "mistral_instruct_finetune_v1_ielts_writing_scoring"
+new_model = "mistral_instruct_finetune_v2_ielts_writing_scoring"
 model_id = "mistralai/Mistral-7B-Instruct-v0.2"
 tokenizer = AutoTokenizer.from_pretrained(model_id, token = hf_token)
 
